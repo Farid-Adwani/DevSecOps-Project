@@ -123,12 +123,6 @@
     </record>
 
 
-    <menuitem id="person_menu" name="My Profile"
-        sequence="5" groups="base.group_system,base.group_erp_manager" />
-    <menuitem id="person_menu1" name="My Profile" parent="person_menu"
-        action="action_res_partner_form2" sequence="10" />
-
-
     <record id="action_res_partner_form2" model="ir.actions.act_window">
         <field name="name">My Profile</field>
         <field name="type">ir.actions.act_window</field>
@@ -142,6 +136,14 @@
 
 
     </record>
+
+
+    <menuitem id="person_menu" name="My Profile"
+        sequence="5" groups="base.group_system,base.group_erp_manager" />
+    <menuitem id="person_menu1" name="My Profile" parent="person_menu"
+        action="action_res_partner_form2" sequence="10" />
+
+
 
 
 </odoo>
