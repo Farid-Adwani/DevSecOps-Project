@@ -1,0 +1,980 @@
+@import url(./font.css);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.pp {
+  border: 2px solid red;
+}
+
+/* Navbar */
+#home__navigation .logo {
+  vertical-align: initial;
+  width: 89px;
+  height: 25px;
+}
+
+#home__navigation .menu {
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+  margin-top: 20px;
+}
+
+#home__navigation ul li a {
+  font-family: Poppins-SemiBold;
+  font-size: 16px;
+  font-weight: 900;
+  color: #1e2037;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+#home__navigation .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+}
+
+#home__navigation .navbar-light .navbar-toggler {
+  color: #16697a;
+  border-color: #16697a;
+}
+
+#home__navigation ul li:nth-child(8) a {
+  font-family: Poppins-SemiBold;
+  color: #16697a;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  padding: 8px 28px;
+}
+
+#home__navigation ul li:nth-child(9) a {
+  font-family: Poppins-SemiBold;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  background-color: #16697a;
+  padding: 8px 28px;
+  margin-right: 0px;
+}
+
+#home__navigation .active-page {
+  color: #069a8e;
+}
+
+/* Search Labs*/
+#university__search__section .search {
+  background: url("../img/search-university.svg") no-repeat 5% -2%;
+  background-size: cover;
+  margin-top: 30px;
+  padding-top: 140px;
+  padding-bottom: 45px;
+  min-height: 500px;
+}
+
+#university__search__section .details-search {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 150px;
+}
+
+#university__search__section .details-search p {
+  font-family: Poppins-Bold;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+#university__search__section .icons-university {
+  /* text-align: center; */
+}
+
+#university__search__section .filter-search {
+  display: flex;
+  margin-left: -200px;
+  margin-top: 50px;
+}
+
+#university__search__section .form-group {
+  display: flex;
+  margin-left: -32px;
+}
+
+#university__search__section .btn-group {
+  margin-left: 8px;
+}
+
+#university__search__section .btn-discipline-location {
+  background-color: #ffffff;
+  color: #1e2037;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-right: 14px;
+}
+
+#university__search__section .btn-location {
+  background-color: #ffffff;
+  color: #1e2037;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-right: 21px;
+}
+
+#university__search__section .dropdown-toggle::after {
+  display: none;
+}
+
+#university__search__section .btn-icon-left {
+  margin-right: 6px;
+  margin-top: -4px;
+}
+
+#university__search__section .btn-icon-arrow {
+  margin-left: 8px;
+}
+
+#university__search__section .input-search2 {
+  min-width: 56%;
+  border: 1px #16697a solid;
+  /*border-radius: 10px;*/
+  background-color: white;
+  background-image: url(../img/loop.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+}
+
+#university__search__section .menu-discipline {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 25px;
+
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 64px !important;
+}
+
+#university__search__section .menu-location {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 25px;
+
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 64px !important;
+}
+
+#university__search__section .form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+}
+
+#university__search__section .form-check-label {
+  margin-left: 10px;
+  margin-bottom: 6px;
+  color: #1e2037;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+#university__search__section .form-check-label-history {
+  margin-left: 10px;
+}
+
+#university__search__section .form-check-input[type="checkbox"] {
+  border-radius: 3px;
+  border: 2px solid #16697a !important;
+
+}
+
+#university__search__section .form-check-input:checked {
+  background-color: #16697a;
+  border-color: #16697a;
+}
+
+#university__search__section .form-check-input:checked[type="checkbox"] {
+  background-size: 20px;
+}
+
+#university__search__section .btn-search {
+  background-color: #16697a;
+  color: #ffffff;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-left: 42px;
+  padding-right: 32px;
+}
+
+#university__search__section .btn-search img {
+  margin-left: 22px;
+}
+
+#university__search__section .img-left,
+.img-right {
+  margin-top: -45px;
+}
+
+#university__search__section .form-search {
+  margin-top: -8px;
+  margin-left: 5%;
+}
+
+/*Number of universities*/
+#universities__number__of__universities .universities {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+
+}
+
+#universities__number__of__universities .universities p:nth-child(1) {
+  color: #1e2037;
+  font-family: Poppins-Bold;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+#universities__number__of__universities .universities p:nth-child(2) {
+  color: #1e2037;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-left: 25px;
+  letter-spacing: 4px;
+}
+
+#list-of-universities .result-search {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+}
+
+#list-of-universities .university-details {
+  width: 32%;
+  text-align: center;
+  margin-bottom: 45px;
+  padding-bottom: 30px;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  background-color: #ffffff;
+}
+
+#list-of-universities .img-university {
+  width: 100%;
+  height: 12.625vw;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  object-fit: cover;
+}
+
+#list-of-universities .logo-university {
+  width: 30%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -5.167vw;
+}
+
+#list-of-universities .description-university {
+  text-align: center;
+}
+
+#list-of-universities .name-university {
+  color: #1e2037;
+  font-family: Poppins-Bold;
+  font-size: 18px;
+  margin-top: 18px;
+  letter-spacing: 1px;
+}
+
+#list-of-universities .location {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+#list-of-universities .location img {
+  width: 22px;
+  margin-right: 5px;
+}
+
+#list-of-universities .location p {
+  margin: 0;
+  padding: 0;
+  color: #a1a1a1;
+  font-size: 15px;
+  font-family: Poppins-Regular;
+}
+
+#list-of-universities .location-lab {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#list-of-universities .location-lab p {
+  margin: 0;
+  padding: 0;
+  color: #a1a1a1;
+  font-size: 18px;
+  font-family: Poppins-Regular;
+}
+
+#list-of-universities .location-lab img {
+  width: 22px;
+}
+
+#list-of-universities .university-result {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+  margin-right: -15px;
+}
+
+#list-of-universities .university-result p {
+  margin: 0;
+  padding: 0;
+  color: #a1a1a1;
+  font-size: 18px;
+  font-family: Poppins-Regular;
+}
+
+#list-of-universities .university-result img {
+  width: 22px;
+}
+
+#list-of-universities .disciplines-university {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-bottom: 28px;
+}
+
+#list-of-universities .disciplines-university img {
+  width: 28px;
+}
+
+#list-of-universities .illustration-university {
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #a1a1a1;
+  font-size: 15px;
+  font-family: Poppins-Regular;
+  line-height: 36px;
+}
+
+#list-of-universities .data-university {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 25px;
+}
+
+#list-of-universities .result-labs {
+  display: flex;
+  gap: 8px;
+}
+
+#list-of-universities .result-labs img {
+  width: 36px;
+}
+
+#list-of-universities .numbers-of-labs p:nth-child(1) {
+  margin: 0;
+  padding: 0;
+  color: #2a2a2a;
+  font-size: 18px;
+  font-family: Poppins-Bold;
+}
+
+#list-of-universities .numbers-of-labs p:nth-child(2) {
+  margin: 0;
+  padding: 0;
+  color: #2a2a2a;
+  font-size: 14px;
+  font-family: Poppins-Bold;
+}
+
+#list-of-universities .see-more {
+  font-family: Poppins-Regular;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 26px;
+  border-radius: 10px;
+  border: 2px solid #273947;
+  background-color: #273947;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*Pagination*/
+#university__pagination__search .pagination {
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 28px;
+}
+
+#university__pagination__search .page-item.active .page-link {
+  background-color: #16697a;
+  border-color: #16697a;
+  color: #ffffff;
+  margin-right: 6px;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#university__pagination__search .page-item .page-link {
+  background-color: #ffffff;
+  color: #16697a;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#university__pagination__search .page-item.disabled .page-link {
+  color: #6c757d;
+  font-size: 16px;
+  font-family: Poppins-Regular;
+}
+
+/*Footer*/
+#home__footer .our-links {
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+#home__footer .description-labhub {
+  width: 30%;
+  padding-right: 15px;
+}
+
+#home__footer .details-link {
+  width: 18%;
+  padding-right: 15px;
+}
+
+#home__footer .contact-us {
+  width: 18%;
+  padding-right: 15px;
+}
+
+#home__footer .description-labhub p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 24px;
+}
+
+#home__footer .description-labhub p:nth-child(2) {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#home__footer .details-link p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .custom-links {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#home__footer .contact-us p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .number-phone {
+  display: flex;
+}
+
+#home__footer .number-phone p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email {
+  display: flex;
+}
+
+#home__footer .social-media {
+  padding-top: 25px;
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-bottom: 30px;
+}
+
+#home__footer .copyrigt {
+  width: 50%;
+}
+
+#home__footer .social-media-img {
+  width: 50%;
+  text-align: right;
+}
+
+#home__footer .social-media-img img {
+  margin: 0 15px;
+}
+
+#home__footer .social-media .copyrigt p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  #home__navigation ul li a {
+    margin-right: 12px;
+  }
+
+  #list-of-universities .disciplines-university {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  #list-of-universities .disciplines-university a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 25px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 25px;
+  }
+
+  #university__search__section .details-search {
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+
+  #university__search__section .input-search2 {
+    min-width: 40%;
+  }
+
+  #university__search__section .img-university {
+    height: 18.625vw;
+  }
+
+  #list-of-universities .data-university {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #home__footer .description-labhub {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .details-link {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .contact-us {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .our-links {
+    display: block;
+    text-align: center;
+  }
+
+  #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  }
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  }
+
+  #home__footer .copyrigt {
+    width: 100%;
+  }
+
+  #home__footer .social-media-img {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 1100px) {
+  #home__navigation ul li a {
+    margin-right: 6px;
+  }
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 16px;
+  }
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  #home__navigation .logo {
+    width: 110px;
+    height: 46px;
+  }
+
+  #home__navigation ul li:nth-child(8) a {
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  #university__search__section .search {
+    background-color: #273947;
+    padding-top: 50px;
+  }
+
+  #university__search__section .img-left {
+    display: none;
+  }
+
+  #university__search__section .img-right {
+    display: none;
+  }
+
+  #university__search__section .form-search {
+    width: 100%;
+  }
+
+  #university__search__section .filter-search {
+    margin-left: 0px;
+    display: block;
+  }
+
+  #university__search__section .form-group {
+    display: block;
+    margin-left: 0px;
+  }
+
+  #university__search__section .details-search {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #university__search__section .btn-group {
+    margin-left: 0px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: -webkit-center;
+  }
+
+  #university__search__section .input-search2 {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  #university__search__section .btn-discipline-location {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 80%;
+  }
+
+  #university__search__section .btn-location {
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  #university__search__section .btn-search {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 80%;
+  }
+
+  #university__search__section .dropdown-menu {
+    position: initial;
+  }
+
+  #university__search__section .menu-discipline {
+    width: 80%;
+    margin-top: 10px !important;
+  }
+
+  #university__search__section .menu-location {
+    width: 80%;
+    margin-top: 10px !important;
+  }
+
+  #university__search__section .icons-university {
+    text-align: center;
+  }
+
+  #universities__number__of__universities .universities {
+    display: block;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 0px;
+  }
+
+  #universities__number__of__universities .universities p:nth-child(1) {
+    font-size: 27px;
+  }
+
+  #universities__number__of__universities .universities p:nth-child(2) {
+    margin: auto;
+  }
+
+  #list-of-universities .result-search {
+    justify-content: space-around;
+  }
+
+  #list-of-universities .university-details {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  #home__navigation .menu {
+    padding-left: 5.321vw;
+    padding-right: 5.321vw;
+  }
+
+  #university__search__section .details-search p {
+    font-size: 35px;
+  }
+
+  #university__search__section .input-search2 {
+    margin-bottom: 20px;
+  }
+
+  #list-of-universities .description-university {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #list-of-universities .university-details {
+    width: 80%;
+  }
+
+  #list-of-universities .img-university {
+    height: 38.625vw;
+  }
+
+  #list-of-universities .logo-university {
+    margin-top: -12.167vw;
+  }
+
+  #list-of-universities .location p {
+    font-size: 14px;
+  }
+
+  #list-of-universities .location-lab p {
+    font-size: 14px;
+  }
+
+  #list-of-universities .university-result p {
+    font-size: 14px;
+  }
+
+  #list-of-universities .see-more {
+    font-size: 18px;
+    padding: 10px 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  #list-of-universities .data-university {
+    display: block;
+  }
+
+  #list-of-universities .result-labs {
+    margin-bottom: 35px;
+    justify-content: center;
+  }
+
+  #list-of-universities .see-more {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  #home__footer .social-media-img img {
+    margin: 0px 5px;
+  }
+
+  #list-of-universities .university-details {
+    width: 95%;
+  }
+}
+/* SCROLL */
+
+#home__footer #scrollToTopBtn {
+  background-color: #069a8e;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+  aspect-ratio: 1;
+  position: fixed;
+  right: 30px;
+  bottom: 15px;
+  border:none;
+  visibility: hidden;
+}
+#home__footer #scrollToTopBtn::before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+
+.limit_words_title {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+div.click-to-top span {
+  display: none;
+  position: absolute;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+
+}
+
+div.click-to-top:hover span {
+  display: block;
+}
+a:link { text-decoration: none; }
+
+
+
+.parent {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .title-form {
+      font-family: Poppins-Bold;
+      font-size: 45px;
+      color: #ffffff;
+      margin: auto !important;
+      padding-bottom: 0px;
+      text-align: center;
+    }
+
+    .title-form2 {
+      font-family: Poppins-Bold;
+      font-size: 15px;
+      color: #ffffff;
+      margin: auto !important;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+
+    .child2 {
+      width: 30% !important;
+      min-width: 400px !important;
+      max-width: 80%;
+      margin: 20px;
+      flex-basis: 100%;
+    }
+
+    .child {
+      width: 30% !important;
+      min-width: 250px !important;
+      margin: 20px;
+      flex-basis: 35%;
+    }
+
+    .txtarea {
+      height: 100px !important;
+      padding: 20px !important;
+      width: 100% !important;
+    }
+
+    .input-search2 {
+     /* background-image: url() !important;*/
+     
+      padding: 20px !important;
+      min-width: fit-content !important;
+    }
+
+
+    .input-search2:not(:placeholder-shown)+.float-label {
+      color: #0b7c7c !important;
+    }
+
+    .float-label {
+      color: dimgray;
+      margin-bottom: 5px;
+      padding: 0.5rem 0.75rem !important;
+    }

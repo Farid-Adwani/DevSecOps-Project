@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Group_2479" data-name="Group 2479" transform="translate(-873 -105)">
+    <g id="Group_2478" data-name="Group 2478">
+      <g id="Group_2201" data-name="Group 2201" transform="translate(42 36.555)">
+        <rect id="Rectangle_858" data-name="Rectangle 858" width="22" height="22" rx="6" transform="translate(831 68.445)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Icon_material-mail" data-name="Icon material-mail" d="M13.553,6H4.173A1.171,1.171,0,0,0,3.006,7.173L3,14.208A1.176,1.176,0,0,0,4.173,15.38h9.38a1.176,1.176,0,0,0,1.173-1.173V7.173A1.176,1.176,0,0,0,13.553,6Zm0,2.345-4.69,2.931L4.173,8.345V7.173L8.863,10.1l4.69-2.931Z" transform="translate(875.137 105.31)" fill="#212121"/>
+  </g>
+</svg>

@@ -1,0 +1,1009 @@
+@import url(./font.css);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.pp {
+  border: 2px red solid;
+}
+
+.tt {
+  border: 2px black solid;
+}
+
+/* Navbar */
+#home__navigation .logo {
+  vertical-align: initial;
+  width: 89px;
+  height: 25px;
+}
+
+#home__navigation .menu {
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+  margin-top: 20px;
+}
+
+#home__navigation ul li a {
+  font-family: Poppins-SemiBold;
+  font-size: 16px;
+  font-weight: 900;
+  color: #1e2037;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+#home__navigation .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+}
+
+#home__navigation .navbar-light .navbar-toggler {
+  color: #16697a;
+  border-color: #16697a;
+}
+
+#home__navigation ul li:nth-child(8) a {
+  font-family: Poppins-SemiBold;
+  color: #16697a;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  padding: 8px 28px;
+}
+
+#home__navigation ul li:nth-child(9) a {
+  font-family: Poppins-SemiBold;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  background-color: #16697a;
+  padding: 8px 28px;
+  margin-right: 0px;
+}
+
+#home__navigation .active-page {
+  color: #069a8e;
+}
+
+/* Details University  */
+#details__university .result-university {
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+  padding-top: 75px;
+}
+
+#details__university .carousel-inner {
+  border-radius: 12px;
+}
+
+/* #details__university .carousel-item .img1 {
+  background: url("../img/university-1.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+} */
+#details__university .img-carousel {
+  height: 340px;
+  object-fit: cover;
+}
+
+/* #details__university .carousel-item .img2 {
+  background: url("../img/university-2.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+} */
+/* #details__university .carousel-item .img3 {
+  background: url("../img/university-3.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+} */
+
+#details__university .carousel-control-next {
+  width: 6%;
+  top: 0px;
+  opacity: initial;
+}
+
+#details__university .carousel-control-prev {
+  width: 6%;
+  top: 0px;
+  opacity: initial;
+}
+
+#details__university .description-university {
+  width: 92%;
+  margin: auto;
+  padding: 20px 25px;
+  display: flex;
+  gap: 20px;
+  /*justify-content: space-around;*/
+  background-color: #ffffff;
+
+  border-radius: 26px;
+  margin-top: -50px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.07);
+}
+
+#details__university .logo-university {
+  width: 100%;
+  height: 122px;
+  border-radius: 10px;
+}
+
+#details__university .details-of-university {
+  width: 89%;
+}
+
+#details__university .data-university {
+  text-align: center;
+}
+
+#details__university .url-university {
+  margin-top: 22px;
+}
+
+#details__university .website-university {
+  font-family: Poppins-SemiBold;
+  color: #16697a;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid #ccf0f8;
+  background-color: #ccf0f8;
+  padding: 4px 12px;
+  margin-right: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#details__university .website-university img {
+  margin-right: 5px;
+}
+
+#details__university .social-media {
+  margin-top: 14px;
+}
+
+#details__university .university-email {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+#details__university .university-email p {
+  font-family: Poppins-Bold;
+  color: #202124;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#details__university .university-email a {
+  font-family: Poppins-SemiBold;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 2px solid #16697a;
+  background-color: #16697a;
+  padding: 4px 28px;
+  margin-right: 0px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#details__university .university-email a img {
+  margin-right: 10px;
+  margin-bottom: 4px;
+  width: 18px;
+}
+
+#details__university .contact-university {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 9px;
+}
+
+#details__university .data-of-university {
+  font-family: Poppins-Light;
+  color: #202124;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+#details__university .adress,
+.founded,
+.phone {
+  display: flex;
+  gap: 10px;
+  margin-right: 12px;
+}
+
+#details__university .describe-university p {
+  font-family: Poppins-Light;
+  color: #b1b1b1;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+#details__university .avaible-labs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#details__university .avaible-labs img {
+  margin-right: 8px;
+}
+
+#details__university .number-of-labs p {
+  font-family: Poppins-Regular;
+  color: #2a2a2a;
+  font-size: 16px;
+  margin-top: 4px;
+  padding: 0;
+}
+
+/* Number of labs*/
+#labs .labs-find {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+  margin: auto;
+  margin-top: 65px;
+}
+
+#labs .labs-find p {
+  font-family: Poppins-Bold;
+  color: #1e2037;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#labs .labs-find span {
+  font-family: Poppins-Regular;
+  color: #1e2037;
+  font-size: 18px;
+  margin-left: 12px;
+  position: relative;
+  bottom: 3px;
+}
+
+#labs .labs-find a {
+  font-family: Poppins-SemiBold;
+  color: #1e2037;
+  font-size: 18px;
+  margin: 12px;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#labs__list__of__labs .result-search {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+}
+
+#labs__list__of__labs .labs-details {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 25px;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  background-color: #ffffff;
+}
+
+#labs__list__of__labs .img-lab {
+  width: 100%;
+  height: 12.625vw;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  object-fit: cover;
+}
+
+#labs__list__of__labs .logo-lab {
+  width: 30%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -5.167vw;
+}
+
+#labs__list__of__labs .description-lab {
+  text-align: center;
+}
+
+#labs__list__of__labs .name-lab {
+  color: #1e2037;
+  font-family: Poppins-Bold;
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+#labs__list__of__labs .members {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+#labs__list__of__labs .members img {
+  width: 22px;
+  margin-right: 5px;
+}
+
+#labs__list__of__labs .members p {
+  margin: 0;
+  padding: 0;
+  color: #a1a1a1;
+  font-size: 15px;
+  font-family: Poppins-Regular;
+}
+
+#labs__list__of__labs .tags {
+  margin-top: 22px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-right: 45px;
+  padding-left: 45px;
+  margin-bottom: 28px;
+}
+
+#labs__list__of__labs .tags a {
+  font-family: Poppins-Regular;
+  color: #5a5a5a;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 2px solid #f1f1f1;
+  background-color: #f1f1f1;
+  margin-right: 5px;
+  margin-top: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+#labs__list__of__labs .btn-see-more {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  right: 0;
+}
+#labs__list__of__labs .see-more {
+  font-family: Poppins-Regular;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #069a8e;
+  background-color: #069a8e;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 8px 48px;
+}
+
+#jobs .jobs-find {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11.321vw;
+  padding-right: 8.321vw;
+  margin-top: -12px;
+}
+
+#jobs .jobs-find p {
+  font-family: Poppins-Bold;
+  color: #1e2037;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#jobs .jobs-find a {
+  font-family: Poppins-SemiBold;
+  color: #1e2037;
+  font-size: 18px;
+  margin: 12px;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#list-jobs .list-of-jobs {
+  margin-top: 25px;
+  display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  /*grid-template-columns: 35% 35% 35%;*/
+  padding-left: 10.321vw;
+  padding-right: 7.321vw;
+}
+
+#list-jobs .details-jobs {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  background-color: #ffffff;
+}
+
+#list-jobs .name-job {
+  color: #1e2037;
+  font-family: Poppins-Medium;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 0;
+}
+
+#list-jobs .description-job {
+  color: #a1a1a1;
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  margin: 0;
+  padding-right: 15px;
+  margin-top: -2px;
+}
+
+#list-jobs .type-lab {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+#list-jobs .type-lab p {
+  color: #a1a1a1;
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+#list-jobs .date {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+#list-jobs .date p {
+  color: #a1a1a1;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+#list-jobs .tags-jobs {
+  margin-top: 22px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+#list-jobs .tags-jobs a {
+  font-family: Poppins-Regular;
+  color: #5a5a5a;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 2px solid #f1f1f1;
+  background-color: #f1f1f1;
+  margin-right: 5px;
+  margin-top: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+#list-jobs .see-more-job {
+  font-family: Poppins-Medium;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px solid #069a8e;
+  background-color: #069a8e;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 96px;
+}
+
+/*Footer*/
+#home__footer .our-links {
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+#home__footer .description-labhub {
+  width: 30%;
+  padding-right: 15px;
+}
+
+#home__footer .details-link {
+  width: 18%;
+  padding-right: 15px;
+}
+
+#home__footer .contact-us {
+  width: 18%;
+  padding-right: 15px;
+}
+
+#home__footer .description-labhub p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 24px;
+}
+
+#home__footer .description-labhub p:nth-child(2) {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#home__footer .details-link p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .custom-links {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#home__footer .contact-us p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .number-phone {
+  display: flex;
+}
+
+#home__footer .number-phone p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email {
+  display: flex;
+}
+
+#home__footer .social-media {
+  padding-top: 25px;
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-bottom: 30px;
+}
+
+#home__footer .copyrigt {
+  width: 50%;
+}
+
+#home__footer .social-media-img {
+  width: 50%;
+  text-align: right;
+}
+
+#home__footer .social-media-img img {
+  margin: 0 15px;
+}
+
+#home__footer .social-media .copyrigt p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  #home__navigation ul li a {
+    margin-right: 12px;
+  }
+
+  #labs__list__of__labs .tags {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  #labs__list__of__labs .tags a {
+    font-size: 12px;
+  }
+}
+
+#details__university .specialty-university {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#details__university .educational-materials-1,
+.educational-materials-2,
+.educational-materials-3,
+.educational-materials-4,
+.educational-materials-5 {
+  display: flex;
+  gap: 10px;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+#details__university .educational {
+  font-family: Poppins-Light;
+  color: #202124;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1310px) {
+  #list-jobs .see-more-job {
+    padding: 5px 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 25px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 25px;
+  }
+
+  #details__university .website-university {
+    font-size: 14px;
+  }
+
+  #labs__list__of__labs .tags {
+    justify-content: center;
+  }
+
+  #labs__list__of__labs .see-more {
+    padding: 5px 58px;
+  }
+
+  #list-jobs .see-more-job {
+    padding: 5px 50px;
+  }
+
+  /* #list-jobs .list-of-jobs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #list-jobs .details-jobs {
+    width: 40%;
+  } */
+}
+
+@media (max-width: 1200px) {
+  #home__footer .description-labhub {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .details-link {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .contact-us {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .our-links {
+    display: block;
+    text-align: center;
+  }
+
+  #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  }
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  }
+
+  #home__footer .copyrigt {
+    width: 100%;
+  }
+
+  #home__footer .social-media-img {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1055px) {
+  #details__university .contact-university {
+    font-size: 14px;
+  }
+
+  #details__university .adress,
+  .founded,
+  .phone {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 1100px) {
+  #home__navigation ul li a {
+    margin-right: 6px;
+  }
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 16px;
+  }
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 991px) {
+  #home__navigation .logo {
+    width: 110px;
+    height: 46px;
+  }
+
+  #home__navigation ul li:nth-child(8) a {
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  #details__university .carousel-control-next {
+    width: 12%;
+  }
+
+  #details__university .carousel-control-prev {
+    width: 12%;
+  }
+
+  #labs__list__of__labs .result-search {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #labs__list__of__labs .labs-details {
+    width: 40%;
+  }
+
+  #list-jobs .list-of-jobs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #list-jobs .details-jobs {
+    width: 40%;
+  }
+
+  #details__university .result-university {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #home__navigation .menu {
+    padding-left: 5.321vw;
+    padding-right: 5.321vw;
+  }
+
+  #details__university .carousel-control-next {
+    width: 25%;
+  }
+
+  #details__university .carousel-control-prev {
+    width: 25%;
+  }
+
+  #details__university .description-university {
+    display: block;
+  }
+
+  #details__university .logo-university {
+    width: 122px;
+  }
+
+  #details__university .details-of-university {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  #labs__list__of__labs .description-lab {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #labs__list__of__labs .labs-details {
+    width: 100%;
+  }
+
+  #labs__list__of__labs .img-lab {
+    height: 38.625vw;
+  }
+
+  #labs__list__of__labs .logo-lab {
+    margin-top: -12.167vw;
+  }
+
+  #labs__list__of__labs .members p {
+    font-size: 14px;
+  }
+
+  #labs__list__of__labs .location-lab p {
+    font-size: 14px;
+  }
+
+  #labs__list__of__labs .university-result p {
+    font-size: 14px;
+  }
+
+  #labs__list__of__labs .see-more {
+    padding: 5px 36px;
+  }
+
+  #list-jobs .details-jobs {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #home__footer .social-media-img img {
+    margin: 0px 5px;
+  }
+}
+
+@media (max-width: 393px) {
+  #details__university .university-email {
+    display: block;
+  }
+
+  #details__university .university-email p {
+    margin-bottom: 12px;
+  }
+
+  #details__university .contact-university {
+    margin-top: 12px;
+  }
+
+  #labs .labs-find {
+    display: block;
+    text-align: center;
+  }
+
+  #labs .labs-find a {
+    margin: 0;
+  }
+
+  #labs__list__of__labs .see-more {
+    padding: 5px 26px;
+  }
+
+  #jobs .jobs-find {
+    display: block;
+    text-align: center;
+  }
+
+  #jobs .jobs-find a {
+    margin: 0;
+  }
+
+  #list-jobs .see-more-job {
+    padding: 5px 26px;
+  }
+}
+
+/* SCROLL */
+
+#home__footer #scrollToTopBtn {
+  background-color: #069a8e;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+  aspect-ratio: 1;
+  position: fixed;
+  right: 30px;
+  bottom: 15px;
+  border:none;
+  visibility: hidden;
+}
+#home__footer #scrollToTopBtn::before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+
+.tooltip {
+  position: relative;
+
+
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 50;
+    bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.limit_words_desc {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+#list-jobs .btn-see-more {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  right: 0;
+}

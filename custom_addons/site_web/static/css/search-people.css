@@ -1,0 +1,890 @@
+@import url(./font.css);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+.pp {
+  border: 1px solid red;
+}
+/* Navbar */
+#home__navigation .logo {
+  vertical-align: initial;
+  width: 89px;
+  height: 25px;
+}
+
+#home__navigation .menu {
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+  margin-top: 20px;
+}
+
+#home__navigation ul li a {
+  font-family: Poppins-SemiBold;
+  font-size: 16px;
+  font-weight: 900;
+  color: #1e2037;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+#home__navigation .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+}
+
+#home__navigation .navbar-light .navbar-toggler {
+  color: #16697a;
+  border-color: #16697a;
+}
+
+#home__navigation ul li:nth-child(8) a {
+  font-family: Poppins-SemiBold;
+  color: #16697a;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  padding: 8px 28px;
+}
+
+#home__navigation ul li:nth-child(9) a {
+  font-family: Poppins-SemiBold;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  background-color: #16697a;
+  padding: 8px 28px;
+  margin-right: 0px;
+}
+
+#home__navigation .active-page {
+  color: #069a8e;
+}
+
+/* Section Search People */
+#search__people {
+  position: relative;
+}
+#search__people .icons-left {
+  position: absolute;
+  top: calc(calc(0.9rem + 0.8rem) + 0.8rem + 0.8rem);
+  /* left: calc(calc(4.9rem + 0.8rem) + 0.8rem + 0.8rem); */
+  left: calc(10% / 2);
+  z-index: 1;
+}
+#search__people .icons-right {
+  position: absolute;
+  top: calc(calc(0.9rem + 0.8rem) + 0.8rem + 0.8rem);
+  left: calc(154% / 2);
+  /* left: calc(calc(80.9rem + -5.2rem) + 0.8rem + 0.8rem); */
+  z-index: 1;
+}
+
+#search__people .searching {
+  background: url(../img/75999.svg) no-repeat 5% 100%;
+  background-size: cover;
+/* padding-bottom: 290px;; */
+  margin-top: 50px;
+  height: 71vh;
+}
+
+#search__people .people {
+  text-align: center;
+
+}
+
+#search__people .title-people {
+  font-family: Poppins-Bold;
+  font-size: 45px;
+  color: #ffff;
+  text-align: center;
+  padding-top: 85px;
+}
+
+#search__people .form-searching {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#search__people .all-filtres {
+  display: flex;
+  gap: 25px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#search__people .location {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+
+}
+
+#search__people .input-search-person{
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../img/loop.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+  width: 100%;
+}
+
+#search__people .input-location {
+  width: 70%;
+}
+
+#search__people .btn-search {
+  background-color: #069A8E;
+  color: #ffffff;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-left: 42px;
+  padding-right: 32px;
+}
+
+#search__people .btn-search img {
+  margin-left: 22px;
+}
+
+#search__people .dropdown-toggle::after {
+  content: none !important;
+}
+
+#search__people .btn-discipline-location {
+
+  background-color: #ffffff;
+  color: #1e2037;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  border-radius: 10px;
+  padding-right: 14px;
+  width: 170px;
+}
+
+#search__people .form-check-label {
+  margin-left: 2px;
+  margin-bottom: 6px;
+  color: #1e2037;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#search__people .form-check-input[type="checkbox"] {
+  border-radius: 3px;
+  border: 2px solid #16697a !important;
+}
+
+#search__people .form-check-input:checked[type="checkbox"] {
+  background-size: 20px;
+}
+
+#search__people .menu-discipline {
+  padding-left: 12px;
+  padding-top: 15px;
+  padding-right: 8px;
+  height: 124px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 64px !important;
+}
+
+#search__people .dropdown-menu {
+  min-width: 10.6rem;
+}
+#search__people .form-check-input:checked {
+  background-color: #16697a;
+}
+
+#search__people .btn-icon-left {
+  margin-right: 6px;
+  margin-top: -4px;
+}
+
+#search__people .btn-icon-arrow-labs {
+  margin-left: 42px !important;
+}
+
+#search__people .btn-icon-arrow {
+  margin-left: 8px;
+}
+
+#search__people .custom-btn {
+  height: 58px;
+  width: 166px;
+}
+
+#search__people .input-contry {
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../img/location__contry.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+  width: 100%;
+}
+
+#search__people .input-university {
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../img/university-people.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+  width: 100%;
+}
+
+#search__people .custom-width {
+  width: 19%;
+}
+
+/* Data List*/
+.flexdatalist-results {
+  /* top: 487.5px !important; */
+  border: none !important;
+  border-color : none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.flexdatalist-results li.active {
+  background: #069A8E !important
+}
+
+/* End Data List*/
+
+
+/*Section List people*/
+#list__people .listed-people {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+    }
+#list__people .title-of-peoples {
+  color: #1e2037;
+  font-family: Poppins-Bold;
+  font-size: 45px;
+}
+
+#list__people .number-of-peoples {
+  color: #1e2037;
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    margin-top: 12px;
+
+ 
+}
+#list__people .all-people {
+  display: flex;
+  margin-top: 112px;
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+  gap: 36px;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+#list__people .card-people {
+  text-align: center;
+  margin-bottom: 45px;
+  padding-bottom: 5px;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  background-color: #ffffff;
+  width: 30.1%;
+  margin-bottom: 90px;
+}
+
+#list__people .card-people:hover {
+  box-shadow: 0px 10px 59px -17px rgba(0, 0, 0, 0.1);
+  background-color: #F5FDFF;
+}
+
+#list__people .details-people {
+  margin-left: 26px;
+  padding-right: 10px;
+}
+
+#list__people .img-student {
+  width: 30%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -3.167vw;
+}
+
+#list__people .name-people {
+  font-size: 18px;
+  font-family: Poppins-Bold;
+  color: #1E2037;
+  margin-top: 15px;
+}
+
+#list__people .resume {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+#list__people .image-specialty {
+  width: 22px;
+  height: 22px;
+}
+
+#list__people .title {
+  font-size: 15px;
+  text-align: initial;
+  color: #A1A1A1;
+  font-family: Poppins-Regular;
+  margin: 0;
+  padding: 0;
+
+}
+
+#list__people .tags {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#list__people .tags-job {
+  display: flex;
+  text-decoration: none;
+  border-radius: 10px;
+  gap: 8px;
+  padding: 8px 12px 8px 14px;
+  cursor: pointer;
+}
+
+#list__people .name-tag {
+  font-family: Poppins-Regular;
+  color: #5a5a5a;
+  font-size: 15px;
+  margin: 0;
+}
+/*Pagination*/
+#labs__pagination__search .pagination {
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 28px;
+}
+
+#labs__pagination__search .page-item.active .page-link {
+  background-color: #16697a;
+  border-color: #16697a;
+  color: #ffffff;
+  margin-right: 6px;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#labs__pagination__search .page-item .page-link {
+  background-color: #ffffff;
+  color: #16697a;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#labs__pagination__search .page-item.disabled .page-link {
+  color: #6c757d;
+  font-size: 16px;
+  font-family: Poppins-Regular;
+}
+
+/*Footer*/
+#home__footer .our-links {
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+#home__footer .description-labhub {
+  width: 30%;
+  padding-right: 15px;
+}
+
+#home__footer .details-link {
+  width: 18%;
+  padding-right: 15px;
+}
+
+#home__footer .contact-us {
+ 
+  padding-right: 15px;
+}
+
+#home__footer .description-labhub p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 24px;
+}
+
+#home__footer .description-labhub p:nth-child(2) {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#home__footer .details-link p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .custom-links {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#home__footer .contact-us p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .number-phone {
+  display: flex;
+}
+
+#home__footer .number-phone p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email {
+  display: flex;
+}
+
+#home__footer .social-media {
+  padding-top: 25px;
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-bottom: 30px;
+}
+
+#home__footer .copyrigt {
+  width: 50%;
+}
+
+#home__footer .social-media-img {
+  width: 50%;
+  text-align: right;
+}
+
+#home__footer .social-media-img img {
+  margin: 0 15px;
+}
+
+#home__footer .social-media .copyrigt p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+/*Media query */
+@media (max-width: 1400px) {
+  #home__navigation ul li a {
+    margin-right: 12px;
+  }
+
+  #search__people .searching {
+    height: 68vh;
+  }
+
+  #search__people .location {
+
+    justify-content: flex-start;
+    padding-left: 170px;
+  }
+
+  #search__people .input-location {
+    width: 67%;
+  }
+
+  #search__people .all-filtres {
+    /* padding-left: 188px; */
+    justify-content: center;
+    padding-left: 8px;
+  }
+
+  #search__people .custom-width {
+    width: 16%;
+  }
+  #search__people .icons-right {
+    left: calc(calc(69.9rem + -5.2rem) + 0.8rem + 0.8rem);
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 25px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 25px;
+  }
+
+  /* #search__people .searching {
+    height: 57vh;
+  } */
+
+  #search__people .location {
+    justify-content: center;
+    padding-left: 0;
+  }
+#search__people .icons-right {
+  left: calc(calc(58.9rem + -5.2rem) + 0.8rem + 0.8rem);
+  z-index: 1;
+}
+
+#search__people .icons-left {
+  left: calc(calc(-1.1rem + 0.8rem) + 0.8rem + 0.8rem);
+  z-index: 1;
+}
+  #list__people .details-people {
+
+    margin-left: 16px;
+  }
+  #home__footer .description-labhub {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .details-link {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .contact-us {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  #search__people .all-filtres {
+    padding-left: 0px;
+  }
+  #search__people .input-university {
+    padding: 12px 20px 12px 50px;
+    background-position: -30px center;
+}
+#search__people .input-contry {
+  padding: 12px 20px 12px 50px;
+    background-position: -30px center;
+}
+}
+
+
+@media (max-width: 1100px) {
+  #home__navigation ul li a {
+    margin-right: 6px;
+  }
+
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 16px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 16px;
+  }
+  
+  #home__footer .our-links {
+    display: block;
+    text-align: center;
+  } 
+
+   #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  } 
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  } 
+
+  #home__footer .social-media-img {
+    text-align: center;
+  }
+
+#home__footer .copyrigt {
+    width: 100%;
+}
+
+
+#home__footer .social-media-img {
+    width: 100%;
+}
+}
+
+@media (max-width: 991px) {
+
+  #home__navigation ul li:nth-child(8) a {
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    margin-right: 0px;
+    text-align: center;
+  }
+  #search__people .icons-left, .icons-right {
+    display: none;
+    z-index: 1;
+  }
+  #search__people .title-people {
+    padding-top: 60px;
+  }
+
+  #search__people .searching {
+    background: none;
+    background-color: #3282B8;
+    height: fit-content;
+    padding-bottom: 45px;
+  }
+
+  #search__people .input-location {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #search__people .input-search-person {
+    width: 80%;
+  }
+
+  #search__people .location {
+    display: block;
+  }
+
+  #search__people .btn-search {
+    width: 80%;
+    height: 53px;
+  }
+
+  #search__people .all-filtres {
+    display: block;
+    margin-top: 20px;
+  }
+
+  #search__people .btn-discipline-location {
+    width: 80%;
+    height: 53px;
+  }
+
+  #search__people .btn-group {
+    display: block;
+    text-align: -webkit-center;
+    margin-bottom: 20px;
+  }
+
+  #search__people .dropdown-menu {
+    position: initial;
+  }
+
+  #search__people .menu-discipline {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  #search__people .custom-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  /* #search__people .btn-icon-arrow-labs {
+    margin-left: 8px !important;
+  } */
+  /* .flexdatalist-results {
+    top: 991px !important
+  } */
+
+  #list__people .all-people {
+    gap: 14px;
+  }
+  #list__people .card-people {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  #home__navigation .menu {
+    padding-left: 5.321vw;
+    padding-right: 5.321vw;
+  }
+
+  #list__people .card-people {
+    width: 100%;
+    margin-bottom: 120px;
+  }
+
+  #list__people .img-student {
+    margin-top: -11.167vw;
+  }
+
+  #list__people .resume {
+    display: block;
+  }
+  #list__people .tags {
+    justify-content: center;
+  }
+  #list__people .listed-people {
+    display: block;
+    text-align: center;
+  }
+  #list__people .title {
+    text-align: inherit;
+  }
+}
+
+@media (max-width: 500px) {
+  #home__footer .social-media-img img {
+    margin: 0px 5px;
+  }
+}
+
+
+@media screen and (max-height: 900px) {
+  #search__people .icons-left {
+    top: 9px;
+  }
+ 
+}
+
+
+#home__footer #scrollToTopBtn {
+  background-color: #069a8e;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+  aspect-ratio: 1;
+  position: fixed;
+  right: 30px;
+  bottom: 15px;
+  border: none;
+  visibility: hidden;
+}
+
+#home__footer #scrollToTopBtn::before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+
+#search__people .input-search-interest{
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../img/star.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+  width: 100%;
+}
+
+#search__people .input-search-position{
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../img/position__people.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+  width: 100%;
+}
+
+#search__people .input-search-pays{
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../img/location__contry.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+  width: 100%;
+}
+
+#search__people .input-search-faculte{
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(../img/university-people.svg);
+  background-position: -42px center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 65px;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 18px;
+  color: #343434;
+  width: 100%;
+}
+
+a:link { text-decoration: none; }

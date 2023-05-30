@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <report
+        id="report_cv"
+        string="Imprimer CV"
+        model="res.partner"
+        report_type="qweb-pdf"
+        name="person.report_cv"
+        file="person.report_cv"
+    />
+
+
+</odoo>

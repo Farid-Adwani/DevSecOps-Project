@@ -1,0 +1,543 @@
+@import url(./font.css);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pp {
+  border: 2px solid red;
+}
+/* Navbar */
+#home__navigation .logo {
+  vertical-align: initial;
+  width: 89px;
+  height: 25px;
+}
+
+#home__navigation .menu {
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+  margin-top: 20px;
+}
+
+#home__navigation ul li a {
+  font-family: Poppins-SemiBold;
+  font-size: 16px;
+  font-weight: 900;
+  color: #1e2037;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+#home__navigation .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+}
+
+#home__navigation .navbar-light .navbar-toggler {
+  color: #16697a;
+  border-color: #16697a;
+}
+
+#home__navigation ul li:nth-child(8) a {
+  font-family: Poppins-SemiBold;
+  color: #16697a;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  padding: 8px 28px;
+}
+
+#home__navigation ul li:nth-child(9) a {
+  font-family: Poppins-SemiBold;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #16697a;
+  background-color: #16697a;
+  padding: 8px 28px;
+  margin-right: 0px;
+}
+
+#home__navigation .active-page {
+  color: #069a8e;
+}
+/* Job*/
+#job .job-img {
+  /* background: url(../img/background-job.svg) no-repeat 6% -2%; */
+   background: url(../img/backgound.svg) no-repeat 6% 100%; 
+  background-size: cover;
+  margin-top: 30px;
+  padding-top: 140px;
+  padding-bottom: 45px;
+  min-height: 240px;
+  position: relative;
+}
+#job .description-of-job {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 66%;
+  text-align: center;
+}
+#job .title-of-job {
+  font-family: Poppins-Bold;
+  font-size: 30px;
+  color: #ffffff;
+}
+/*Details job*/
+#job__info .logo-job {
+  width: 118px;
+  height: 138px;
+  border-radius: 10px;
+}
+#job__info .description-job {
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+  margin-top: 60px;
+}
+#job__info .all-description-job {
+  padding: 20px 25px;
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 36px;
+}
+/* #job__info .name-of-job {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+} */
+#job__info .title-job {
+  font-family: Poppins-Bold;
+  color: #202124;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+#job__info .data-job {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding-right: 102px;
+}
+#job__info .year-calendar {
+  display: flex;
+  flex-wrap: wrap;
+}
+#job__info .data-of-job {
+  display: flex;
+  margin-top: -28px;
+}
+#job__info .card-job {
+  width: 86%;
+}
+#job__info .university,
+.program,
+.location,
+.calendar,
+.time {
+  display: flex;
+  gap: 16px;
+  margin-right: 20px;
+}
+#job__info .specific-job {
+  font-family: Poppins-Light;
+  color: #202124;
+  font-size: 15px;
+}
+#job__info .calendar img {
+  width: 22px;
+}
+#job__info .icon-job {
+  margin-top: -20px;
+  width: 22px;
+}
+#job__info .decription-job {
+  font-family: Poppins-Light;
+  color: #b1b1b1;
+  font-size: 15px;
+  padding-right: 8px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  margin-top: 8px;
+}
+#job__info .tags {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#job__info .tags-job {
+  display: flex;
+  text-decoration: none;
+  border-radius: 10px;
+  gap: 8px;
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+#job__info .name-tag {
+  font-family: Poppins-Regular;
+  color: #5a5a5a;
+  font-size: 15px;
+  margin: 0;
+}
+#job__info .apply {
+  display: flex;
+  justify-content: flex-end;
+}
+#job__info .btn-apply {
+  border-radius: 10px;
+  border: 2px solid #16697a;
+  background-color: #16697a;
+  padding: 6px 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#job__info .apply-text {
+  font-family: Poppins-Medium;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0;
+}
+#global__description__job .designation-job {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 7.321vw;
+  padding-right: 7.321vw;
+}
+#global__description__job .all-designation {
+  background-color: #ffffff;
+  padding: 20px 25px 20px 35px;
+  border-radius: 36px;
+}
+#global__description__job .title-description {
+  font-family: Poppins-SemiBold;
+  color: #202124;
+  font-size: 16px;
+}
+#global__description__job .description-total {
+  font-family: Poppins-Light;
+  color: #b1b1b1;
+  font-size: 15px;
+  line-height: 20px;
+}
+/*Footer*/
+#home__footer .our-links {
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+#home__footer .description-labhub {
+  width: 30%;
+  padding-right: 15px;
+}
+
+#home__footer .details-link {
+  width: 18%;
+  padding-right: 15px;
+}
+
+#home__footer .contact-us {
+  
+  padding-right: 15px;
+}
+
+#home__footer .description-labhub p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 24px;
+}
+
+#home__footer .description-labhub p:nth-child(2) {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#home__footer .details-link p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .custom-links {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+#home__footer .contact-us p:nth-child(1) {
+  font-family: Poppins-ExtraBold;
+  font-size: 16px;
+}
+
+#home__footer .number-phone {
+  display: flex;
+}
+
+#home__footer .number-phone p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+#home__footer .email {
+  display: flex;
+}
+
+#home__footer .social-media {
+  padding-top: 25px;
+  background-color: #212121;
+  color: #ffffff;
+  display: flex;
+  padding-right: 7.321vw;
+  padding-left: 7.321vw;
+  padding-bottom: 30px;
+}
+
+#home__footer .copyrigt {
+  width: 50%;
+}
+
+#home__footer .social-media-img {
+  width: 50%;
+  text-align: right;
+}
+
+#home__footer .social-media-img img {
+  margin: 0 15px;
+}
+
+#home__footer .social-media .copyrigt p {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  #home__navigation ul li a {
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 25px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 25px;
+  }
+  #home__footer .description-labhub {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .details-link {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  #home__footer .contact-us {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+ /*
+  #home__footer .our-links {
+    display: block;
+    text-align: center;
+  }
+
+  #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  }
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  }
+
+  #home__footer .copyrigt {
+    width: 100%;
+  }
+
+  #home__footer .social-media-img {
+    width: 100%;
+    text-align: center;
+  } */
+}
+
+@media (max-width: 1100px) {
+  #home__navigation ul li a {
+    margin-right: 6px;
+  }
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 16px;
+  }
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  #home__navigation .logo {
+    width: 110px;
+    height: 46px;
+  }
+
+  #home__navigation ul li:nth-child(8) a {
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  #home__navigation ul li:nth-child(9) a {
+    margin-right: 0px;
+    text-align: center;
+  }
+  #job .job-img {
+    background-color: #375D61;
+  }
+  #job .description-of-job {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #home__footer .our-links {
+    display: block;
+    text-align: center;
+  } 
+
+   #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  } 
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  } 
+
+  #home__footer .social-media-img {
+    text-align: center;
+  }
+
+#home__footer .copyrigt {
+    width: 100%;
+}
+
+
+#home__footer .social-media-img {
+    width: 100%;
+}
+}
+@media (max-width: 768px) {
+  #job .title-of-job {
+    font-size: 24px;
+  }
+  #job__info .all-description-job {
+    display: block;
+    text-align: center;
+  }
+  #job__info .data-job {
+    display: block;
+  }
+  #job__info .data-job {
+    padding-right: 0px;
+  }
+  #job__info .university,
+  .program,
+  .location,
+  .calendar,
+  .time {
+    justify-content: center;
+    margin-right: 0px;
+  }
+  #job__info .title-job {
+    margin-top: 12px;
+  }
+
+  #job__info .tags {
+    justify-content: center;
+  }
+  #job__info .apply {
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  #home__footer .social-media-img img {
+    margin: 0px 5px;
+  }
+}
+@media (max-width: 393px) {
+  #job__info .university,
+  .program,
+  .location,
+  .calendar,
+  .time {
+    display: block;
+  }
+  #job__info .icon-job {
+    margin-top: -10px;
+  }
+  #job__info .tags-job {
+    padding: 8px 12px;
+  }
+}
+/* SCROLL */
+
+#home__footer #scrollToTopBtn {
+  background-color: #069a8e;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+  aspect-ratio: 1;
+  position: fixed;
+  right: 30px;
+  bottom: 15px;
+  border: none;
+  visibility: hidden;
+}
+#home__footer #scrollToTopBtn::before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
