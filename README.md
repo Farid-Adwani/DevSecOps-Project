@@ -11,7 +11,6 @@
 - [ ] Install MuK Backend Theme module
 - [ ] Install website module
 - [ ] To activate the signup, check free free sign up under customer account (see screenshot1)
-- [ ] click default access right, check internal user as user types and check multi company option (in the botton of the form) (see screenshot2)
 - [ ] install the modules listed in module_list.txt in order
 ## Git doc
 https://docs.google.com/document/d/1p_yJenONFfF_IulXti4wk-5BaQGYm0EUnvtyrYaHF4w/edit?usp=sharing
