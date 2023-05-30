@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_post,post.post,model_post_post,,1,1,1,1
+access_comment,publication.comment,model_publication_comment,,1,1,1,1
+access_like,publication.like,model_publication_like,,1,1,1,1
